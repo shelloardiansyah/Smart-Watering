@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6CoHy1AQr"
+#define BLYNK_TEMPLATE_ID "TMPLAr"
 #define BLYNK_TEMPLATE_NAME "smart plant"
-#define BLYNK_AUTH_TOKEN  "CHnve85cV4FIJEj9gv5qY53x4TfL2mi0"
+#define BLYNK_AUTH_TOKEN  "CH4T2mi0"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -38,7 +38,7 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0,0);
-  lcd.print("Smart Watering");                                    j32322
+  lcd.print("Smart Watering");
   lcd.setCursor(0,1);
   lcd.print("By Aisyah Team");
 
